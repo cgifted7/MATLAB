@@ -1,5 +1,5 @@
 % Load the temperature data from the CSV file
-data = readmatrix('TempDataTest');
+data = readmatrix('TempDataTest.csv');
 
 % Set up the problem parameters
 density = 1380; % kg/m^3
