@@ -1,7 +1,7 @@
 % Define a function to compute the temperature data based on the current guess for
 % the thermal conductivity coefficients
 function temperature_data = compute_temperature_data(coefficients)
-    data = readmatrix('TwinTech\Day 69\TempDataTest.csv');
+    data = readmatrix('TempDataTest.csv');
     temperature_data = data(1,:); % use initial temperatures as initial condition
     num_times = size(data, 1);
     time_step = 1;
